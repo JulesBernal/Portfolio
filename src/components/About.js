@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import React from "react";
-import './about.css';
+import './About.css';
 
 export default function About() {
   return (
@@ -14,10 +13,10 @@ export default function About() {
         </p>
         <p>Love to learn coding and be trans!</p>
       </header>
-        <fig id="flowAbout">
-            <img src="public/Susan.webp" alt="Picture of Susan Kare, Apple artist slouched in chair"/>
-            <img src="public/Jules.webp" alt="Picture of Jules Bernal, engineer slouched in chair"/>
-        </fig>
+        <figure id="flowAbout">
+            <img src="public/Susan.webp" alt="Susan Kare, Apple artist slouched in chair"/>
+            <img src="public/Jules.webp" alt="Jules Bernal, engineer slouched in chair"/>
+        </figure>
     </section>
   );
 }

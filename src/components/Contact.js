@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './Contact.css';
 
-function contact() {
+export default function contact() {
   return (
     <div className="contact">
       <header className="contact-header">
@@ -13,17 +13,7 @@ function contact() {
           Road to Hire coding Apprentice of Cohort 10!
         </p>
         <p>Love to learn coding and be trans!</p>
-        <a
-          className="App-link"
-          href="https://github.com/JulesBernal"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
 }
-
-export default contact;
