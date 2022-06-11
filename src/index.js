@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import './index.css';
+import './index.scss';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Splash from "./components/Splash"
@@ -13,18 +13,20 @@ import Footer from "./components/Footer"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-    <Router>
+    <section id="mainSection">
+      <Router>
         <Navbar />
-        <Routes>
-        {/* <App /> */}
-          <Route path='/' element={<Splash/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/projects' element={<Projects/>}/>
-          <Route path='/contact' element={<Contact/>}/>
-        </Routes>
-        <Footer />
+        <article id="bodyApp">
+          <Routes>
+            <Route path='/' element={<Splash/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/projects' element={<Projects/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+          </Routes>
+        </article>
       </Router>
+    </section>
+    <Footer />
   </React.StrictMode>
 );
 

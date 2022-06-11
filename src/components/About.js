@@ -1,5 +1,5 @@
 import React from "react";
-import './About.css';
+import './About.scss';
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
         <p>Love to learn coding and be trans!</p>
       </header>
         <figure id="flowAbout">
-            <img src="public/Susan.webp" alt="Susan Kare, Apple artist slouched in chair"/>
+            <img src="Susan.webp" alt="Susan Kare, Apple artist slouched in chair"/>
             <img src="public/Jules.webp" alt="Jules Bernal, engineer slouched in chair"/>
         </figure>
     </section>

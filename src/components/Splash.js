@@ -1,6 +1,10 @@
 import React from 'react';
+import './Splash.scss';
 export default function Splash(){
     return(
-       <h3>Hello</h3>
+        <article>
+            <h2>Jules Bernal Benitez</h2>
+            <h3>Portfolio</h3>
+        </article>
     );
 }
