@@ -1,9 +1,15 @@
 footer{
     text-align:center;
     margin:auto;
-    height:20vh;
-    max-height:22vh;
+    height:20%;
+    max-height:22%;
+    display:flex;
 }
 footer a{
+    margin:auto;
     text-decoration:none;
+    img{
+        padding:1rem;
+        height:15vh;
+    }
 }

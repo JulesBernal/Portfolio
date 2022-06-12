@@ -1,19 +1,21 @@
 nav{
     text-align:center;
+    margin:1rem 0 1rem 0;
+    width:100%;
 }
 ul{
-    list-style-type:none;
+    display:flex;
+    justify-content: space-evenly;
     
 }
 li{
     display:inline;
-    // background-color:teal;
-    // border-radius:10rem;
-    // height:3.7rem;
-}
-a{
-    border-radius:1.5rem;
-    background-color:teal;
-    font-size:3.5rem;
-    text-decoration:none;
+    margin: 2rem;
+    a{
+        border-radius:1.5rem;
+        background-color:teal;
+        font-size:4.5rem;
+        text-decoration:none;
+        padding:0 1rem .25rem 1rem;
+    }
 }

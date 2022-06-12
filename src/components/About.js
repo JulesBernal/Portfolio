@@ -11,12 +11,21 @@ export default function About() {
         <p>
           Road to Hire coding Apprentice of Cohort 10!
         </p>
-        <p>Love to learn coding and be trans!</p>
+        {/* <p>Love to learn coding and be trans!</p> */}
+        <p>Born in South America, Colombia, but raised in Richmond, Virginia!</p>
+        <p>2016 Graduate of Reynolds Community with a associate's in Computer and Electrical Engineering.</p>
+        <p>I spent my free time learning about the tech world and immersing myself in art such as video games and music.</p>
       </header>
-        <figure id="flowAbout">
+      <article id="aboutFlow">
+        <figure class="flowAbout">
             <img src="Susan.webp" alt="Susan Kare, Apple artist slouched in chair"/>
-            <img src="public/Jules.webp" alt="Jules Bernal, engineer slouched in chair"/>
+            <p>Susan Kare, an Apple Artist that is a big inspiration for me.</p>
         </figure>
+        <figure class="flowAbout">
+            <img src="jules_comp.jpg" alt="Jules Bernal, engineer slouched in chair"/>
+            <p>Jules Bernal, an insipiring engineer posing like Susan Kare</p>
+        </figure>
+      </article>
     </section>
   );
 }
