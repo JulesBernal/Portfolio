@@ -11,7 +11,7 @@ export default function About() {
         <p>
           Road to Hire coding Apprentice of Cohort 10!
         </p>
-        {/* <p>Love to learn coding and be trans!</p> */}
+        <p>Love to learn coding and be trans!</p>
         <p>Born in South America, Colombia, but raised in Richmond, Virginia!</p>
         <p>2016 Graduate of Reynolds Community with a associate's in Computer and Electrical Engineering.</p>
         <p>I spent my free time learning about the tech world and immersing myself in art such as video games and music.</p>

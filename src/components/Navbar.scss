@@ -1,22 +1,31 @@
 nav{
     text-align:center;
-    margin:1rem 0 1rem 0;
-    width:100%;
+    margin:1rem 0 0 0;
+    width:100vw;
 }
 ul{
     display:flex;
+    width:60%;
     justify-content: space-evenly;
-    
+    margin:auto;
+    padding:0;
 }
 li{
     display:inline;
-    margin: 2rem;
+    margin: 2rem 1.6rem 0 1.6rem;
     //sai
     a{
-        border-radius:1.5rem;
+        border-top-left-radius:1.5rem;
+        border-top-right-radius:1.5rem;
         background-color:teal;
-        font-size:4.5rem;
+        font-size:4rem;
         text-decoration:none;
-        padding:0 1rem .25rem 1rem;
+        padding:0 .8rem 0 .8rem;
+        a:active{
+            color:#5b1865;
+        }
+        a:hover{
+            color:green;
+        }
     }
 }

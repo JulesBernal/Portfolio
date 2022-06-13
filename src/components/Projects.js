@@ -6,7 +6,7 @@ export default function Projects(){
         <section id="projecto">
             <article class="projectPanel">
                 <figure class="projectFig">
-                    <img src="" alt="Screenshot of Ecommerce Project Website"></img>
+                    <img src="ecomm_home_2.png" alt="Screenshot of Ecommerce Project Website"></img>
                     <figcaption>E-Commerce Website</figcaption>
                 </figure>
                 <section>
