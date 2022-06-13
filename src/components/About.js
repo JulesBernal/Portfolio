@@ -18,7 +18,7 @@ export default function About() {
       </header>
       <article id="aboutFlow">
         <figure class="flowAbout">
-            <img src="Susan.webp" alt="Susan Kare, Apple artist slouched in chair"/>
+            <img src="susan_kare.jpg" alt="Susan Kare, Apple artist slouched in chair"/>
             <p>Susan Kare, an Apple Artist that is a big inspiration for me.</p>
         </figure>
         <figure class="flowAbout">
