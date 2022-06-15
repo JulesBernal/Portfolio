@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from "react-player"
 import './Projects.scss';
 
 export default function Projects(){
@@ -18,9 +19,15 @@ export default function Projects(){
             </article>
             <article class="projectPanel">
                 <figure class="projectFig">
-                    <video width="320" height="240" controls> 
-                        <source src="" type="video/mp4"/> Video of Roadtalks
-                    </video>
+                    {/* <video width="320" height="240" controls> 
+                        <source src="https://youtu.be/NOJn89j2La0" type="video/mp4"/> Video of Roadtalks
+                    </video> */}
+                    <ReactPlayer
+                            url="https://youtu.be/NOJn89j2La0"
+                            controls
+                            width="30rem"
+                            height="12rem"
+                        /> Video of Roadtalks
                     <figcaption>Roadtalks #1: Public Transportation</figcaption>
                 </figure>
                 <section>
