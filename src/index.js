@@ -9,6 +9,7 @@ import About from "./components/About";
 // import Contact from "./components/Contact";
 import ProjectCode from "./components/ProjectCode";
 import ProjectsPD from "./components/ProjectPD";
+import Reflection from "./components/Reflection";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
             <Route path='/about' element={<About/>}/>
             <Route path='/project_code' element={<ProjectCode/>}/>
             <Route path='/project_pd' element={<ProjectsPD/>}/>
+            <Route path='/reflection' element={<Reflection/>}/>
             {/* <Route path='/contact' element={<Contact/>}/> */}
           </Routes>
         </article>

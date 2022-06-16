@@ -40,6 +40,13 @@ export default function Navbar(){
                             style={({ isActive })=>
                                 isActive ? activeStyle:undefined}
                             >Code</NavLink>
+                    </li> 
+                    <li>
+                        <NavLink 
+                            to="/reflection"
+                            style={({ isActive })=>
+                                isActive ? activeStyle:undefined}
+                            >Reflection</NavLink>
                     </li>
                     {/* <li>
                         <NavLink 
