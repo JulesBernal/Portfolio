@@ -5,7 +5,7 @@ import './Projects.scss';
 export default function Projects(){
     return(
         <section id="projecto">
-            <img src="pedro_door.jpg" alt="Open door leading to a garden."></img>
+            <img id="door" src="pedro_door.jpg" alt="Open door leading to a garden."></img>
             <p id="door"> 
                 Road to Hire meant to me, a chance, a new opportunity, another door or window to open.
                 My biggest strength would have to be Javascript and troubleshooting.

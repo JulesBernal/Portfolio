@@ -1,5 +1,8 @@
 
 #julesSplash{
-    height:50%;
+    height:60%;
     width:auto;
+    @media only screen and (max-width:800px){
+        width:100%;
+    }
 }
