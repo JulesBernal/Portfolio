@@ -4,8 +4,11 @@ footer{
     height:12%;
     display:flex;
     background:#add8e6;
-    position:absolute;
-    bottom:0;
+    @media only screen and (min-width:800px){
+        position:absolute;
+        bottom:0;
+    }
+ 
     padding:.5rem;
     width:100%;
     a{
@@ -16,4 +19,5 @@ footer{
             height:90%;
         }
     }
+    
 }

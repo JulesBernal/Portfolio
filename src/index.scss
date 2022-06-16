@@ -1,5 +1,7 @@
 html {
-  height: 100%;
+  @media only screen and (min-width:800px){
+    height: 100%;
+  }
   margin: 0;
   background: linear-gradient(to bottom, #470024 0%, #add8e6 90%);
 }
@@ -32,7 +34,9 @@ code {
 
 #bodyApp {
   width: 80%;
-  height: 80%;
+  @media only screen and (min-width:801px){
+    height:80%;
+  }
   margin: auto;
   border: 0px #470024 solid;
   border-radius: 3rem;
@@ -43,6 +47,11 @@ code {
   section:nth-child(1) {
     height: 100%;
     padding-top:.5rem;
+  }
+  @media only screen and (max-width:800px){
+    width:100%;
+    margin:0;
+    overflow-y:auto;
   }
 }
 
@@ -55,4 +64,16 @@ figure img {
 }
 h2 h3{
   margin-top:0;
+}
+@media only screen and (max-width:1000px){
+  li{
+    margin:0;
+  }
+}
+#about{
+  display:flex;
+  flex-direction:column;
+  header{
+    margin-bottom:2rem;
+  }
 }

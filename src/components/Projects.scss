@@ -1,6 +1,12 @@
 #projecto{
     display:flex;
     flex-direction:row;
+    article{
+        width:100%;
+    }
+    @media only screen and (max-width:1200px){
+        flex-wrap:wrap;
+    }
 }
 .projectPanel{
     display:flex;

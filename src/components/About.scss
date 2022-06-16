@@ -3,6 +3,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     width:100%;
+    @media only screen and (max-width:700px){
+       
+          flex-direction:column;
+    }
 }
 .flowAbout{
     width:50%;
