@@ -15,10 +15,15 @@ export default function Projects(){
                     <figcaption>E-Commerce Website</figcaption>
                 </figure>
                 <article>
-                    <h3>My E-Commerce Project was a culmination of all that I had learned within the cohort and Gateway.
-                        I am very proud of my website's outcome. </h3>
-                    <p>In it I was able to incorporate flex in my css, as well including mobile responsiveness, so the 
-                        website can be used on mobile.</p>
+                    <h3>My E-Commerce Project was a culmination of all that I had learned within the cohort and Gateway,
+                        and I am quite pleased with the outcome.</h3>
+                    <p>In the project, I was able to incorporate flex in my CSS, as well as mobile responsiveness, so the 
+                        website can be used on mobile devices. Accessibility was a feature I wanted to learn and use for
+                        the project, such as making text have contrast with its background as well as using semantic HTML
+                        to provide support for screen readers. This website challenged me through CSS, as I did not have much 
+                        experience with it. My website helped to give me an idea of my strengths and weakness in conjunction
+                        with a project. Using what I learned, I set goals for myself to challenge myself, such as using React
+                        to create this website. </p>
                 </article>
         </section>
     );

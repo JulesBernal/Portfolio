@@ -23,7 +23,7 @@ export default function About() {
         </figure>
         <figure class="flowAbout">
             <img src="jules_comp.jpg" alt="Jules Bernal, engineer slouched in chair"/>
-            <p>Jules Bernal, an insipiring engineer posing like Susan Kare</p>
+            <p>Jules Bernal, an aspiring engineer posing like Susan Kare</p>
         </figure>
       </article>
     </section>
