@@ -1,23 +1,53 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import './Navbar.scss';
 export default function Navbar(){
+
+    let activeStyle={
+        textDecoration:"underline",
+        background:"#00ffff",
+        color:"#5600ef"
+    };
+
     return(
-        <header>
+        <header id="navHeader">
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <NavLink 
+                            to="/"
+                            style={({ isActive })=>
+                                isActive ? activeStyle:undefined}
+                            >Home</NavLink>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <NavLink 
+                            to="/about"
+                            style={({ isActive })=>
+                                isActive ? activeStyle:undefined}
+                            >About</NavLink>
                     </li>
                     <li>
-                        <Link to="/projects">Projects</Link>
+                        <NavLink 
+                            to="/project_pd"
+                            style={({ isActive })=>
+                                isActive ? activeStyle:undefined}
+                            >PD</NavLink>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <NavLink 
+                            to="/project_code"
+                            style={({ isActive })=>
+                                isActive ? activeStyle:undefined}
+                            >Code</NavLink>
                     </li>
+                    {/* <li>
+                        <NavLink 
+                            to="/contact"
+                            style={({ isActive })=>
+                                isActive ? activeStyle:undefined}
+                            >Contact</NavLink>
+                    </li> */}
                 </ul>
             </nav>
         </header>

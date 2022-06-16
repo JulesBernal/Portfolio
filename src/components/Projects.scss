@@ -1,8 +1,20 @@
 #projecto{
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
 }
 .projectPanel{
     display:flex;
     flex-direction:row;
+}
+
+.projectFig{
+    width:100%;
+    height:auto;
+
+    iframe{
+        height:90%;
+    }
+    div{
+        height:90%;
+    }
 }
