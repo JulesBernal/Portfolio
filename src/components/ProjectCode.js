@@ -12,7 +12,7 @@ export default function Projects(){
                         title="Jules Ecommerce Website"
                         sandbox>
                     </iframe>
-                    <figcaption>E-Commerce Website</figcaption>
+                    <figcaption><a href="https://github.com/JulesBernal/EcommerceWebsite">E-Commerce Website</a></figcaption>
                 </figure>
                 <article>
                     <h3>My E-Commerce Project was a culmination of all that I had learned within the cohort and Gateway,
