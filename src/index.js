@@ -6,8 +6,9 @@ import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import Splash from "./components/Splash"
 import About from "./components/About";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+// import Contact from "./components/Contact";
+import ProjectCode from "./components/ProjectCode";
+import ProjectsPD from "./components/ProjectPD";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,8 +21,9 @@ root.render(
           <Routes>
             <Route path='/' element={<Splash/>}/>
             <Route path='/about' element={<About/>}/>
-            <Route path='/projects' element={<Projects/>}/>
-            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/project_code' element={<ProjectCode/>}/>
+            <Route path='/project_pd' element={<ProjectsPD/>}/>
+            {/* <Route path='/contact' element={<Contact/>}/> */}
           </Routes>
         </article>
       </Router>
